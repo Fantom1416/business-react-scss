@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 92vh;
+  background: #101C26;
+}
+.container .left_container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 30px;
+}
+.container .left_container h1 {
+  font-size: 45px;
+  color: #fff;
+}
+.container .left_container .h11 {
+  margin-bottom: 30px;
+}
+.container .left_container p {
+  color: #fff;
+  font-size: 19px;
+}
+.container .left_container .buttons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .left_container .buttons button {
+  width: 150px;
+  height: 40px;
+  background-color: yellow;
+  border: none;
+  border-radius: 19px;
+  font-size: 15px;
+}
+.container .left_container .buttons span {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 19px;
+}
+.container .left_container .procents {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+.container .left_container .procents h3 {
+  color: yellow;
+  font-size: 27px;
+  font-family: sans-serif;
+  margin: 0 20px;
+}
+.container .right_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .right_container .abs {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  transform: translateX(-312px);
+}/*# sourceMappingURL=Container.css.map */
